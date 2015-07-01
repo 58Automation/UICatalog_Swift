@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED10F591B438F4A0008F791 /* UICatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED10F581B438F4A0008F791 /* UICatalogUITests.swift */; };
 		2200541E18BC54E8002A6E8B /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */; };
 		2200541F18BC54E8002A6E8B /* AlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541B18BC54E8002A6E8B /* AlertControllerViewController.swift */; };
 		2200542018BC54E8002A6E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541C18BC54E8002A6E8B /* AppDelegate.swift */; };
@@ -41,18 +40,7 @@
 		3E6AE85A196B3BBC0062A3E1 /* SearchBarEmbeddedInNavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AE859196B3BBC0062A3E1 /* SearchBarEmbeddedInNavigationBarViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0ED10F5B1B438F4A0008F791 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 228DB9EB18BC53F1002BA12A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 228DB9F218BC53F1002BA12A;
-			remoteInfo = UICatalog;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0ED10F561B438F4A0008F791 /* UICatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED10F581B438F4A0008F791 /* UICatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICatalogUITests.swift; sourceTree = "<group>"; };
 		0ED10F5A1B438F4A0008F791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
@@ -92,13 +80,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ED10F531B438F4A0008F791 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		228DB9F018BC53F1002BA12A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				228DB9F318BC53F1002BA12A /* UICatalog.app */,
-				0ED10F561B438F4A0008F791 /* UICatalogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,24 +223,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0ED10F551B438F4A0008F791 /* UICatalogUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0ED10F5F1B438F4A0008F791 /* Build configuration list for PBXNativeTarget "UICatalogUITests" */;
-			buildPhases = (
-				0ED10F521B438F4A0008F791 /* Sources */,
-				0ED10F531B438F4A0008F791 /* Frameworks */,
-				0ED10F541B438F4A0008F791 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0ED10F5C1B438F4A0008F791 /* PBXTargetDependency */,
-			);
-			name = UICatalogUITests;
-			productName = UICatalogUITests;
-			productReference = 0ED10F561B438F4A0008F791 /* UICatalogUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		228DB9F218BC53F1002BA12A /* UICatalog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228DBA0B18BC53F1002BA12A /* Build configuration list for PBXNativeTarget "UICatalog" */;
@@ -287,12 +249,6 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Apple;
-				TargetAttributes = {
-					0ED10F551B438F4A0008F791 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 228DB9F218BC53F1002BA12A;
-					};
-				};
 			};
 			buildConfigurationList = 228DB9EE18BC53F1002BA12A /* Build configuration list for PBXProject "UICatalog" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,19 +264,11 @@
 			projectRoot = "";
 			targets = (
 				228DB9F218BC53F1002BA12A /* UICatalog */,
-				0ED10F551B438F4A0008F791 /* UICatalogUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0ED10F541B438F4A0008F791 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		228DB9F118BC53F1002BA12A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,14 +283,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ED10F521B438F4A0008F791 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0ED10F591B438F4A0008F791 /* UICatalogUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		228DB9EF18BC53F1002BA12A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,14 +319,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0ED10F5C1B438F4A0008F791 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 228DB9F218BC53F1002BA12A /* UICatalog */;
-			targetProxy = 0ED10F5B1B438F4A0008F791 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		228DB9F818BC53F1002BA12A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -407,45 +339,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0ED10F5D1B438F4A0008F791 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = UICatalogUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TEST_TARGET_NAME = UICatalog;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0ED10F5E1B438F4A0008F791 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = UICatalogUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = UICatalog;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 		228DBA0918BC53F1002BA12A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -547,14 +440,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0ED10F5F1B438F4A0008F791 /* Build configuration list for PBXNativeTarget "UICatalogUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0ED10F5D1B438F4A0008F791 /* Debug */,
-				0ED10F5E1B438F4A0008F791 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		228DB9EE18BC53F1002BA12A /* Build configuration list for PBXProject "UICatalog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
