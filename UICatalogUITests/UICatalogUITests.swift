@@ -28,6 +28,11 @@ class UICatalogUITests: XCTestCase {
     }
     
     func testExample() {
+        let app = XCUIApplication()
+        app.navigationBars["UIView"].buttons["UICatalog"].tap()
+        app.tables.staticTexts["Buttons"].tap()
+        app.navigationBars["Buttons"].buttons["UICatalog"].tap()
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
